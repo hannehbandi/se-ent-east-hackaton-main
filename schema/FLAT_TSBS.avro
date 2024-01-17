@@ -1,0 +1,80 @@
+{
+ "type": "record",
+ "name": "FLAT_TSBS",
+ "fields": [
+  {
+   "name": "BULNO",
+   "type": [
+    "null",
+    "string"
+   ],
+   "doc": "SERVICE BULLETIN NUMBER",
+   "default": null
+  },
+  {
+   "name": "BULREP",
+   "type": [
+    "null",
+    "string"
+   ],
+   "doc": "REPLACEMENT SERVICE BULLETIN NUMBER",
+   "default": null
+  },
+  {
+   "name": "ID",
+   "type": [
+    "null",
+    "int"
+   ],
+   "doc": "NHTSA ITEM NUMBER",
+   "default": null
+  },
+  {
+   "name": "BULDTE",
+   "type": [
+    "null",
+    "string"
+   ],
+   "doc": "DATE OF BULLETIN",
+   "default": null
+  },
+  {
+   "name": "COMPNAME",
+   "type": [
+    "null",
+    "string"
+   ],
+   "doc": "CODE FOR FAILING COMPONENT",
+   "default": null
+  },
+  {
+   "name": "MAKETXT",
+   "type": "string",
+   "doc": "VEHICLE/EQUIPMENT MAKE"
+  },
+  {
+   "name": "MODELTXT",
+   "type": "string",
+   "doc": "VEHICLE/EQUIPMENT MODEL"
+  },
+  {
+   "name": "YEARTXT",
+   "type": "string",
+   "doc": "MODEL YEAR, 9999 IF UNKNOWN or N/A"
+  },
+  {
+   "name": "DATEA",
+   "type": "string",
+   "doc": "DATE ADDED TO FILE"
+  },
+  {
+   "name": "SUMMARY",
+   "type": [
+    "null",
+    "string"
+   ],
+   "doc": "DESCRIPTION OF SUMMARY",
+   "default": null
+  }
+ ]
+}

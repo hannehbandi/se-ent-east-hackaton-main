@@ -1,0 +1,105 @@
+{
+  "type": "record",
+  "name": "FLAT_INV",
+  "fields": [
+    {
+      "name": "NHTSA_ACTION_NUMBER",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "NHTSA Identification Number",
+      "default": null
+    },
+    {
+      "name": "MAKE",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Vehicle/Equipment Make",
+      "default": null
+    },
+    {
+      "name": "MODEL",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Vehicle/Equipment Model",
+      "default": null
+    },
+    {
+      "name": "YEAR",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Model Year, 9999 if Unknown or N/A",
+      "default": null
+    },
+    {
+      "name": "COMPNAME",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Component Description",
+      "default": null
+    },
+    {
+      "name": "MFR_NAME",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Manufacturer's Name",
+      "default": null
+    },
+    {
+      "name": "ODATE",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Date Opened (YYYYMMDD)",
+      "default": null
+    },
+    {
+      "name": "CDATE",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Date Closed (YYYYMMDD)",
+      "default": null
+    },
+    {
+      "name": "CAMPNO",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Recall Campaign Number, if applicable",
+      "default": null
+    },
+    {
+      "name": "SUBJECT",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Summary Description",
+      "default": null
+    },
+    {
+      "name": "SUMMARY",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Summary Detail",
+      "default": null
+    }
+  ]
+}

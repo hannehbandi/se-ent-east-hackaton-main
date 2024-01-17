@@ -1,0 +1,249 @@
+{
+  "type": "record",
+  "name": "FLAT_RCL",
+  "fields": [
+    {
+      "name": "RECORD_ID",
+      "type": [
+        "null",
+        "int"
+      ],
+      "doc": "RUNNING SEQUENCE NUMBER, WHICH UNIQUELY IDENTIFIES THE RECORD.",
+      "default": null
+    },
+    {
+      "name": "CAMPNO",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "NHTSA CAMPAIGN NUMBER",
+      "default": null
+    },
+    {
+      "name": "MAKETEXT",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "VEHICLE/EQUIPMENT MAKE",
+      "default": null
+    },
+    {
+      "name": "MODELTXT",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "VEHICLE/EQUIPMENT MODEL",
+      "default": null
+    },
+    {
+      "name": "YEARTXT",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "MODEL YEAR, 9999 IF UNKNOWN or N/A",
+      "default": null
+    },
+    {
+      "name": "MFGCAMPNO",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "MFR CAMPAIGN NUMBER",
+      "default": null
+    },
+    {
+      "name": "COMPNAME",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "COMPONENT DESCRIPTION",
+      "default": null
+    },
+    {
+      "name": "MFGNAME",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "MANUFACTURER THAT FILED DEFECT/NONCOMPLIANCE REPORT",
+      "default": null
+    },
+    {
+      "name": "BGMAN",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "BEGIN DATE OF MANUFACTURING",
+      "default": null
+    },
+    {
+      "name": "ENDMAN",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "END DATE OF MANUFACTURING",
+      "default": null
+    },
+    {
+      "name": "RCLTYPECD",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "VEHICLE, EQUIPMENT OR TIRE REPORT",
+      "default": null
+    },
+    {
+      "name": "POTAFF",
+      "type": [
+        "null",
+        "int"
+      ],
+      "doc": "POTENTIAL NUMBER OF UNITS AFFECTED",
+      "default": null
+    },
+    {
+      "name": "ODATE",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "DATE OWNER NOTIFIED BY MFR",
+      "default": null
+    },
+    {
+      "name": "INFLUENCED_BY",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "RECALL INITIATOR (MFR/OVSC/ODI)",
+      "default": null
+    },
+    {
+      "name": "MFGTXT",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "MANUFACTURERS OF RECALLED VEHICLES/PRODUCTS",
+      "default": null
+    },
+    {
+      "name": "RCDATE",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "REPORT RECEIVED DATE",
+      "default": null
+    },
+    {
+      "name": "DATEA",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "RECORD CREATION DATE",
+      "default": null
+    },
+    {
+      "name": "RPNO",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "REGULATION PART NUMBER",
+      "default": null
+    },
+    {
+      "name": "FMVSS",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "FEDERAL MOTOR VEHICLE SAFETY STANDARD NUMBER",
+      "default": null
+    },
+    {
+      "name": "DESC_DEFECT",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "DEFECT SUMMARY",
+      "default": null
+    },
+    {
+      "name": "CONEQUENCE_DEFECT",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CONSEQUENCE SUMMARY",
+      "default": null
+    },
+    {
+      "name": "CORRECTIVE_ACTION",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CORRECTIVE SUMMARY",
+      "default": null
+    },
+    {
+      "name": "NOTES",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "RECALL NOTES",
+      "default": null
+    },
+    {
+      "name": "RCL_CMPT_ID",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "NUMBER THAT UNIQUELY IDENTIFIES A RECALLED COMPONENT.",
+      "default": null
+    },
+    {
+      "name": "MFR_COMP_NAME",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "MANUFACTURER-SUPPLIED COMPONENT NAME",
+      "default": null
+    },
+    {
+      "name": "MFR_COMP_DESC",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "MANUFACTURER-SUPPLIED COMPONENT DESCRIPTION",
+      "default": null
+    },
+    {
+      "name": "MFR_COMP_PTNO",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "MANUFACTURER-SUPPLIED COMPONENT PART NUMBER",
+      "default": null
+    }
+  ]
+}

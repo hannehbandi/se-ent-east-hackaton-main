@@ -1,0 +1,26 @@
+{
+   "type" : "record",
+   "namespace" : "se_ent_hackathon",
+   "name" : "VehicleComplaints",
+   "fields" : [
+      { "name" : "odiNumber" , "type" : "int" },
+      { "name" : "manufacturer" , "type" : "string" },
+      { "name" : "crash" , "type" : "string" },
+      { "name" : "fire" , "type" : "string" },
+      { "name" : "numberOfInjuries" , "type" : "int" },
+      { "name" : "numberOfDeaths" , "type" : "int" },
+      { "name" : "dateOfIncident" , "type" : "string" },
+      { "name" : "dateComplaintFiled" , "type" : "string" },
+      { "name" : "vin" , "type" : "string" },
+      { "name" : "components" , "type" : "string" },
+      { "name" : "summary" , "type" : "string" },
+      { "name":"products", "type":{ "type": "array", "items":{ "name":"Child", "type":"record", "fields":[ 
+        {"name":"type" , "type" : "string" },
+        {"name":"productYear" , "type" : "string" },
+        {"name":"productMake" , "type" : "string" },
+        {"name":"productModel" , "type" : "string" },
+        {"name":"manufacturer" , "type" : "string" }
+      ] } }
+  }
+   ]
+}

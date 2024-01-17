@@ -1,0 +1,109 @@
+{
+    "namespace": "datagen.telemetry",
+    "name": "telemetry",
+    "type": "record",
+    "fields": [
+      {"name": "tm_event_id", "type": {
+        "type": "long",
+        "arg.properties": {
+          "iteration": {
+            "start": 1
+          }
+        }
+      }},      
+      {"name": "driver_id", "type": {
+        "type": "int",
+        "arg.properties": {
+          "range": {
+            "min": 1,
+            "max": 1000
+          }
+        }
+      }},
+      {"name": "trip_num", "type": {
+        "type": "long",
+        "arg.properties": {
+            "iteration": {
+                "start": 1               
+              }
+        }
+      }},
+      {"name": "speed", "type": {
+        "type": "int",
+        "arg.properties": {
+          "range": {
+            "min": 0,
+            "max": 100
+          }
+        }
+      }},
+      {"name": "lat_accel", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -11.87125,
+            "max": 14.81125
+          }
+        }
+      }},
+      {"name": "long_accel", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -9.2650,
+            "max": 7.2875
+          }
+        }
+      }},
+      {"name": "throttle_pos", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": 0.000000,
+            "max": 100.000000
+          }
+        }
+      }},
+      {"name": "brake_press", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -0.899999,
+            "max": 54.000000
+          }
+        }
+      }},
+      {"name": "steer_ang", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -122.300000,
+            "max": 188.600003
+          }
+        }
+      }},
+      {"name": "steer_ang_rate", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -247.5,
+            "max": 248.5
+          }
+        }
+      }},
+      {"name": "test", "type": {
+        "type": "long",
+        "arg.properties": {
+          "iteration": {
+            "start": 1
+          }
+        }
+      }},
+      {"name": "ts_timestamp", "type": {
+        "type": "long",
+        "arg.properties": {
+          "iteration": { "start": 1 }
+        }
+      }}
+    ]
+  }  
